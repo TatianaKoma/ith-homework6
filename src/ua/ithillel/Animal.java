@@ -4,7 +4,7 @@ public class Animal {
     private final double maxRun;
     private final double maxSwim;
     private final String name;
-    protected static int animalCount = 0;
+    private static int animalCount = 0;
 
     public Animal(double maxRun, double maxSwim, String name) {
         this.maxRun = maxRun;
